@@ -1,16 +1,11 @@
 # myrobotfriends
 
- create a new repository on the command line
-echo "# myrobotfriends" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/kwongen/myrobotfriends.git
-git push -u origin main
+Initialize the project
+npm install
 
+Build 
+npm run build
 
-…or push an existing repository from the command line
-git remote add origin https://github.com/kwongen/myrobotfriends.git
-git branch -M main
-git push -u origin main
+Deploy to github:
+npm install --save gh-pages
+npm run deploy
